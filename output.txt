@@ -1,0 +1,1479 @@
+-----  Network Simulator Version    2.3 -------- 
+
+Enter the number of messages to simulate: 25
+Packet loss probability [enter number between 0.0 and 1.0]: 0.5
+Packet corruption probability [0.0 for no corruption]: 0.5
+Packet out-of-order probability [0.0 for no out-of-order]: 0.5 
+Average time between messages from sender's layer5 [ > 0.0]: 1000
+Enter Level of tracing desired: 3
+Do you want actions randomized: (1 = yes, 0 = no)? 1
+Do you want Bidirectional: (1 = yes, 0 = no)? 0
+Input parameters:
+Number of Messages = 25  Lost Packet Prob. =   0.500
+Corrupt Packet Prob. =   0.500  Out Of Order Prob. =   0.500
+Ave. time between messages =  1000.00  Trace level = 3
+Randomize = 1  Bi-directional = 0
+
+A:     304.1283,  Layer 5 to 4  Message = !fEVhy->Pbs'2J3m~2DU
+                       A_pkt sent:   0   0   -44512 !fEVhy->Pbs'2J3m~2DU\80<h^\FE
+                   A_pkt received:   0   0   -44512 !fEVhy->Pbs'2J3m~2DU,
+B:     305.9212,  Layer 4 to 5  Message = !fEVhy->Pbs'2J3m~2DU
+                       B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -44512 !fEVhy->Pbs'2J3m~2DU\A0;h^\FE
+                   A_pkt received:   0   0   -44512 !fEVhy->Pbs'2J3m~2DU
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                   B_pkt received:  -1   0    -2727 ACK
+Confirmed proper ACK.
+-----
+A:    1788.2250,  Layer 5 to 4  Message = ##i.Qt9]!Eh-Ps8[~Dg,
+                       A_pkt sent:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,\80<h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,\A0;h^\FE
+                   A_pkt received:   1   0   -44478 ##i.Qt9]DEh-Ps8[~!g,
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,\A0;h^\FE
+                   B_pkt received:  -1   0    -2727 ACK
+                   Improper ACKnum.
+                   A_pkt received:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,
+B:    1838.3142,  Layer 4 to 5  Message = ##i.Qt9]!Eh-Ps8[~Dg,
+                       B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,\A0;h^\FE
+                   A_pkt received:  68   0   -44478 ##i.Qt9]!Eh-Ps8[~g,
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,\A0;h^\FE
+                   A_pkt received:   1   0   -44478 ]#i.Qt9#!Eh-Ps8[~Dg,
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,\A0;h^\FE
+                   A_pkt received:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,\A0;h^\FE
+                   A_pkt received:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                   B_pkt received:  -1   1    -2804 A
+               Corruption in B_pkt.
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,\A0;h^\FE
+                   A_pkt received:  81   0   -44478 ##i.t9]!Eh-Ps8[~Dg,
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,\A0;h^\FE
+                   A_pkt received: 126   0   -44478 ##i.Qt9]!Eh-Ps8[Dg,
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,\A0;h^\FE
+                   B_pkt received:  -1   1    -2804 ACK
+Confirmed proper ACK.
+-----
+                   A_pkt received:   1   0   -44478 ##i.Qt9]!Eh-Ps8[~Dg,
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                   B_pkt received:  -1   1   -65524 ACK
+               Corruption in B_pkt.
+A:    2052.2051,  Layer 5 to 4  Message = $X$d:oFzQ(]3h>sJ~U,a
+                       A_pkt sent:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a\80<h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a\A0;h^\FE
+                   A_pkt received:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a
+B:    2115.7916,  Layer 4 to 5  Message = $X$d:oFzQ(]3h>sJ~U,a
+                       B_ACK sent:  -1   0    -2727 ACK
+                   A_pkt received:   0   0   -46646 $X$d:oFzU(]3h>sJ~Q,a
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a\A0;h^\FE
+                   B_pkt received:  -1   0 -12323495 A\FFK
+               Corruption in B_pkt.
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a\A0;h^\FE
+                   A_pkt received:   0   0   -46646 $X]d:oFzQ($3h>sJ~U,a
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a\A0;h^\FE
+                   A_pkt received:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a\A0;h^\FE
+                   A_pkt received:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a\A0;h^\FE
+                   A_pkt received:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a\A0;h^\FE
+                   A_pkt received:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a\A0;h^\FE
+                   A_pkt received:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a\A0;h^\FE
+                   A_pkt received:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46646 $X$d:oFzQ(]3h>sJ~U,a\A0;h^\FE
+                   B_pkt received:  -1   0    -2727 ACK
+Confirmed proper ACK.
+-----
+                   B_pkt received:  -1   0    -2727 ACK
+A:    3316.5970,  Layer 5 to 4  Message = %kS%$jR:#iQ9!hP8~gO7
+                       A_pkt sent:   1   0   -42888 %kS%$jR:#iQ9!hP8~gO7\80<h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -42888 %kS%$jR:#iQ9!hP8~gO7\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -42888 %kS%$jR:#iQ9!hP8~gO7\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -42888 %kS%$jR:#iQ9!hP8~gO7\A0;h^\FE
+                   A_pkt received:   1   0   -42888 %kS%$jR:#iQ9!hP8~gO7
+B:    3387.4509,  Layer 4 to 5  Message = %kS%$jR:#iQ9!hP8~gO7
+                       B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -42888 %kS%$jR:#iQ9!hP8~gO7\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -42888 %kS%$jR:#iQ9!hP8~gO7\A0;h^\FE
+                   A_pkt received:   1   0   -42888 %kS%$jR:#iQ9!hP8~gO7
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                   B_pkt received:  -1   1   -65524 ACK
+               Corruption in B_pkt.
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -42888 %kS%$jR:#iQ9!hP8~gO7\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -42888 %kS%$jR:#iQ9!hP8~gO7\A0;h^\FE
+                   A_pkt received:   1 14848   -42888 %kS%$jR
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -42888 %kS%$jR:#iQ9!hP8~gO7\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -42888 %kS%$jR:#iQ9!hP8~gO7\A0;h^\FE
+                   A_pkt received:   1   0 -14591880 %kS%$jR:#iQ9\FFhP8~gO7
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -42888 %kS%$jR:#iQ9!hP8~gO7\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -42888 %kS%$jR:#iQ9!hP8~gO7\A0;h^\FE
+                   B_pkt received:  -1   1    -2804 ACK
+Confirmed proper ACK.
+-----
+A:    4956.7476,  Layer 5 to 4  Message = &}wq&e_XRLF?93-'~xrl
+                       A_pkt sent:   0   0   -47541 &}wq&e_XRLF?93-'~xrl\80<h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47541 &}wq&e_XRLF?93-'~xrl\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47541 &}wq&e_XRLF?93-'~xrl\A0;h^\FE
+                   A_pkt received:   0   0   -47541 &}wq&e_XRLF?93-'~xrl
+B:    5012.0257,  Layer 4 to 5  Message = &}wq&e_XRLF?93-'~xrl
+                       B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47541 &}wq&e_XRLF?93-'~xrl\A0;h^\FE
+                   B_pkt received:  -1   0    -2727 ACK
+Confirmed proper ACK.
+-----
+                   A_pkt received:   0   0   -47541 &&wq}e_XRLF?93-'~xrl
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                   B_pkt received: -16711681   0    -2727 ACK
+               Corruption in B_pkt.
+A:    6894.7815,  Layer 5 to 4  Message = '2=IT'kv$x:FQ]hs~,7C
+                       A_pkt sent:   1   0   -45482 '2=IT'kv$x:FQ]hs~,7C\80<h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45482 '2=IT'kv$x:FQ]hs~,7C\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45482 '2=IT'kv$x:FQ]hs~,7C\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45482 '2=IT'kv$x:FQ]hs~,7C\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45482 '2=IT'kv$x:FQ]hs~,7C\A0;h^\FE
+                   A_pkt received:   1   0 -13480362 '\FF=IT'kv$x:FQ]hs~,7C
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45482 '2=IT'kv$x:FQ]hs~,7C\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45482 '2=IT'kv$x:FQ]hs~,7C\A0;h^\FE
+                   A_pkt received:   1   0   -45482 '2=IT'kv$x:FQ]hs~,7C
+B:    7011.8312,  Layer 4 to 5  Message = '2=IT'kv$x:FQ]hs~,7C
+                       B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45482 '2=IT'kv$x:FQ]hs~,7C\A0;h^\FE
+                   A_pkt received:   1   0   -45482 '2=IT'kv$x:FQ]hs~,7C
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45482 '2=IT'kv$x:FQ]hs~,7C\A0;h^\FE
+                   A_pkt received: 17921   0   -45482 '2=IT'kv$x:
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45482 '2=IT'kv$x:FQ]hs~,7C\A0;h^\FE
+                   A_pkt received:   1   0   -45482 '2=IT'kv$x:FQ]hs~,7C
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45482 '2=IT'kv$x:FQ]hs~,7C\A0;h^\FE
+                   B_pkt received:  -1   1 -16714484 ACK
+               Corruption in B_pkt.
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45482 '2=IT'kv$x:FQ]hs~,7C\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45482 '2=IT'kv$x:FQ]hs~,7C\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45482 '2=IT'kv$x:FQ]hs~,7C\A0;h^\FE
+                   A_pkt received: 1979711489   0   -45482 '2=IT'k
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45482 '2=IT'kv$x:FQ]hs~,7C\A0;h^\FE
+                   B_pkt received:  -1   1    -2804 ACK
+Confirmed proper ACK.
+-----
+                   A_pkt received:   1 5636096   -45568 '2=IT'kv$x:FQ]hs~,7C
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+A:    7220.8736,  Layer 5 to 4  Message = (Eb~=Z(6SpxLi(Eb~=Zw
+                       A_pkt sent:   0   0   -49248 (Eb~=Z(6SpxLi(Eb~=Zw\80<h^\FE
+                   A_pkt received:   0   0   -49310 (Eb~=Z(6SpxLi(E\A0~=Zw
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -49248 (Eb~=Z(6SpxLi(Eb~=Zw\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -49248 (Eb~=Z(6SpxLi(Eb~=Zw\A0;h^\FE
+                   A_pkt received:   0   0   -49248 (Eb~=Z(6SpxLi(Eb~=Zw
+B:    7269.4554,  Layer 4 to 5  Message = (Eb~=Z(6SpxLi(Eb~=Zw
+                       B_ACK sent:  -1   0    -2727 ACK
+
+Printing the contents of the Simulation Event Q
+Event Time = 7939.445 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -49248 (Eb~=Z(6SpxLi(Eb~=Zw\A0;h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 7295.874 A: Timer    
+Event Time = 7939.445 A: LAYER 5  
+
+                   A_pkt received:   0  98   -49248 (Eb~=Z(6SpxLi(E
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+
+Printing the contents of the Simulation Event Q
+Event Time = 7295.874 A: Timer    
+Event Time = 7939.445 A: LAYER 5  
+
+                   B_pkt received:  -1   0    -2727 ACK
+Confirmed proper ACK.
+-----
+
+Printing the contents of the Simulation Event Q
+
+A:    7939.4449,  Layer 5 to 4  Message = dW(V'U&)%S$R2Q!P~O}N
+                       A_pkt sent:   1   0   -41746 dW(V'U&)%S$R2Q!P~O}N\80<h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 9516.820 A: LAYER 5  
+
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -41746 dW(V'U&)%S$R2Q!P~O}N\A0;h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 7984.445 A: Timer    
+Event Time = 9516.820 A: LAYER 5  
+
+                   A_pkt received:   1   0   -41746 dW(V'U&)%S$R2Q!P~O}N
+B:    7971.8942,  Layer 4 to 5  Message = dW(V'U&)%S$R2Q!P~O}N
+                       B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -41746 dW(V'U&)%S$R2Q!P~O}N\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -41746 dW(V'U&)%S$R2Q!P~O}N\A0;h^\FE
+                   A_pkt received:   1   0   -41746 dW(V'U&)%S$R2Q!P~O}N
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -41746 dW(V'U&)%S$R2Q!P~O}N\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -41746 dW(V'U&)%S$R2Q!P~O}N\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -41746 dW(V'U&)%S$R2Q!P~O}N\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -41746 dW(V'U&)%S$R2Q!P~O}N\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -41746 dW(V'U&)%S$R2Q!P~O}N\A0;h^\FE
+                   A_pkt received:   1   0   -41746 dW(V'U&)%S$R2Q!P~O}N
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -41746 dW(V'U&)%S$R2Q!P~O}N\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -41746 dW(V'U&)%S$R2Q!P~O}N\A0;h^\FE
+                   B_pkt received:  -1   0    -2804 ACK
+               Corruption in B_pkt.
+                   A_pkt received:   1   0   -41746 dW(V'U&)%S$R2Q!P~O}N
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -41746 dW(V'U&)%S$R2Q!P~O}N\A0;h^\FE
+                   A_pkt received:   1   0   -41746 bW(V'U&3%S$R)Q!P~O}N
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                   B_pkt received:  -1   1    -2804 ACK
+Confirmed proper ACK.
+-----
+A:    9516.8198,  Layer 5 to 4  Message = *jL.nP2r*6vX:z]>~aC%
+                       A_pkt sent:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\80<h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                   A_pkt received:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%
+B:    9591.5835,  Layer 4 to 5  Message = *jL.nP2r*6vX:z]>~aC%
+                       B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                   A_pkt received:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                   A_pkt received: 56064   0   -45824 *jL.nP2r*6vX:z]>~aC%
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                   B_pkt received:  -1 16056320   -65447 ACK
+               Corruption in B_pkt.
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                   A_pkt received:   0   0   -45605 *jL.]P2r*6vX:zn>~aC%
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                   B_pkt received:  -1   0    -2727 
+               Corruption in B_pkt.
+                   A_pkt received:   0   0   -45605 *jLznP2r*6vX:.]>~aC%
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                   B_pkt received:  -1   0 1509946879 ACK
+               Corruption in B_pkt.
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                   A_pkt received:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                   A_pkt received:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                   A_pkt received:   0 3276800   -45605 *jL.nP
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                   A_pkt received:   0   0   -45605 *jL.nP2r*6vX]z:>~aC%
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%\A0;h^\FE
+                   A_pkt received:   0   0   -45605 *jL.nP2r*6vX:z]>~aC%
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                   B_pkt received:  -1   0    -2727 ACK
+Confirmed proper ACK.
+-----
+                   B_pkt received:  -1   0    -2727 ACK
+A:   10557.1448,  Layer 5 to 4  Message = +fpdWK>2&+k_RF3-~rfY
+                       A_pkt sent:   1   0   -46247 +fpdWK>2&+k_RF3-~rfY\80<h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -46247 +fpdWK>2&+k_RF3-~rfY\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -46247 +fpdWK>2&+k_RF3-~rfY\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -46247 +fpdWK>2&+k_RF3-~rfY\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -46247 +fpdWK>2&+k_RF3-~rfY\A0;h^\FE
+                   A_pkt received:   1   0   -46247 +fpdWK>2&+k_RF3-~rfY
+B:   10634.2235,  Layer 4 to 5  Message = +fpdWK>2&+k_RF3-~rfY
+                       B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -46247 +fpdWK>2&+k_RF3-~rfY\A0;h^\FE
+                   A_pkt received:   1   0   -46247 +fpdWK>2&+k_RF3-~rfY
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -46247 +fpdWK>2&+k_RF3-~rfY\A0;h^\FE
+                   A_pkt received:   1   0   -46247 +fpdWK>2&+k_RF3-~rfY
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -46247 +fpdWK>2&+k_RF3-~rfY\A0;h^\FE
+                   A_pkt received:   1   0   -46247 Wfpd+K>2&+k_RF3-~rfY
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -46247 +fpdWK>2&+k_RF3-~rfY\A0;h^\FE
+                   B_pkt received:  -1   1    -2804 ACK
+Confirmed proper ACK.
+-----
+A:   11548.3053,  Layer 5 to 4  Message = ,16;AFKPUZ,ejoty~&+0
+                       A_pkt sent:   0   0   -45248 ,16;AFKPUZ,ejoty~&+0\80<h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45248 ,16;AFKPUZ,ejoty~&+0\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45248 ,16;AFKPUZ,ejoty~&+0\A0;h^\FE
+                   A_pkt received: 7274496   0   -45248 ,16;AFKPUZ,ej
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45248 ,16;AFKPUZ,ejoty~&+0\A0;h^\FE
+                   B_pkt received:  -1   1    -2804 ACK
+                   Improper ACKnum.
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45248 ,16;AFKPUZ,ejoty~&+0\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45248 ,16;AFKPUZ,ejoty~&+0\A0;h^\FE
+                   A_pkt received:   0 5570560   -45248 ,16;AFKP
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45248 ,16;AFKPUZ,ejoty~&+0\A0;h^\FE
+                   A_pkt received:   0   0   -45248 ,16;AFKPUZ,ejoty~&+0
+B:   11657.8620,  Layer 4 to 5  Message = ,16;AFKPUZ,ejoty~&+0
+                       B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45248 ,16;AFKPUZ,ejoty~&+0\A0;h^\FE
+                   A_pkt received:   0   0   -45248 ,16;AFKoUZ,ejPty~&+0
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -45248 ,16;AFKPUZ,ejoty~&+0\A0;h^\FE
+                   B_pkt received:  -1   0    -2727 ACK
+Confirmed proper ACK.
+-----
+                   A_pkt received:   0   0 754929472 \FF16;AFKPUZ,ejoty~&+0
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                   B_pkt received:  -1   0   -65447 ACK
+               Corruption in B_pkt.
+A:   11826.9065,  Layer 5 to 4  Message = -DZq*AWn'=T-$:Qh~7Ne
+                       A_pkt sent:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\80<h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                   A_pkt received:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne
+B:   11874.4565,  Layer 4 to 5  Message = -DZq*AWn'=T-$:Qh~7Ne
+                       B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                   A_pkt received:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                   A_pkt received:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                   A_pkt received:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                   B_pkt received:  -1   1    -2804 A
+               Corruption in B_pkt.
+                   A_pkt received:   1 5308416   -43464 -DZq*AWn'=T-$:
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                   B_pkt received: -12320769   1    -2804 A\FFK
+               Corruption in B_pkt.
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                   A_pkt received: 1140850689   0   -43464 -
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                   A_pkt received:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                   A_pkt received:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                   A_pkt received:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                   A_pkt received:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43464 -DZq*AWn'=T-$:Qh~7Ne\A0;h^\FE
+                   B_pkt received:  -1   1    -2804 ACK
+Confirmed proper ACK.
+-----
+A:   13091.1648,  Layer 5 to 4  Message = .V~Iq;d.V~Iq.d.V~Iq;
+                       A_pkt sent:   0   0   -48231 .V~Iq;d.V~Iq.d.V~Iq;\80<h^\FE
+                   A_pkt received:   0   0   -48231 .V~Iq;d.V~Iq.d.V~Iq;
+B:   13102.0486,  Layer 4 to 5  Message = .V~Iq;d.V~Iq.d.V~Iq;
+                       B_ACK sent:  -1   0    -2727 ACK
+                   B_pkt received: 16777215 65280    -2727 ACK
+               Corruption in B_pkt.
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -48231 .V~Iq;d.V~Iq.d.V~Iq;\A0;h^\FE
+                   A_pkt received:   0   0   -48231 .V~Iq;d.V~Iq.d.V~Iq;
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -48231 .V~Iq;d.V~Iq.d.V~Iq;\A0;h^\FE
+                   B_pkt received: -65281 16711680    -2727 ACK
+               Corruption in B_pkt.
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -48231 .V~Iq;d.V~Iq.d.V~Iq;\A0;h^\FE
+                   A_pkt received:   0   0   -48231 .q~Iq;d.V~Iq.d.V~IV;
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -48231 .V~Iq;d.V~Iq.d.V~Iq;\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -48231 .V~Iq;d.V~Iq.d.V~Iq;\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -48231 .V~Iq;d.V~Iq.d.V~Iq;\A0;h^\FE
+                   A_pkt received:   0   0   -48231 .V~Iq;d.V~Iq.d.V~Iq;
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -48231 .V~Iq;d.V~Iq.d.V~Iq;\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -48231 .V~Iq;d.V~Iq.d.V~Iq;\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -48231 .V~Iq;d.V~Iq.d.V~Iq;\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -48231 .V~Iq;d.V~Iq.d.V~Iq;\A0;h^\FE
+                   A_pkt received:   0   0   -48231 .V~Iq;d.V~Iq.d.V~Iq;
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -48231 .V~Iq;d.V~Iq.d.V~Iq;\A0;h^\FE
+                   B_pkt received:  -1   0    -2727 ACK
+Confirmed proper ACK.
+-----
+A:   13377.3205,  Layer 5 to 4  Message = xiE~Z6pL(b=wSxiE~Z6p
+                       A_pkt sent:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\80<h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                   A_pkt received: 15617   0   -51655 xiE~Z6pL(b
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                   B_pkt received: -181   0    -2727 AC\FF
+               Corruption in B_pkt.
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                   A_pkt received:   1   0   -51655 xiE~6ZpL(b=wSxiE~Z6p
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                   A_pkt received:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p
+B:   13508.0283,  Layer 4 to 5  Message = xiE~Z6pL(b=wSxiE~Z6p
+                       B_ACK sent:  -1   1    -2804 ACK
+                   B_pkt received:  -1   1 -16714484 ACK
+               Corruption in B_pkt.
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                   A_pkt received:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                   B_pkt received:  -1   1    -2804 A
+               Corruption in B_pkt.
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                   A_pkt received: 30721   0   -51655 
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                   B_pkt received:  -1   1 1140847884 A\FFK
+               Corruption in B_pkt.
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                   A_pkt received: 1509949441   0   -51655 xiE~
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                   B_pkt received: -48129   1    -2804 A\FFK
+               Corruption in B_pkt.
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                   A_pkt received:   1   0   -51655 xiEiZ6pL(b=wSx~E~Z6p
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                   A_pkt received:   1   0 -13172935 xiE~Z6pL(b=wSxiE~Z6p
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                   A_pkt received:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                   A_pkt received:   1   0   -51643 xiE~Z6pL(b=wSxi9~Z6p
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                   A_pkt received:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                   A_pkt received:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                   B_pkt received: -256   1    -2804 ACK
+               Corruption in B_pkt.
+                   A_pkt received:   1   0   -51655 xiE~Z6pL(b=wSpiE~Z6x
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -51655 xiE~Z6pL(b=wSxiE~Z6p\A0;h^\FE
+                   A_pkt received:   1   0   -50890 xiE~Z6pL(b=wSxiE~Z6p
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                   B_pkt received:  -1   1    -2804 ACK
+Confirmed proper ACK.
+-----
+A:   14272.8240,  Layer 5 to 4  Message = d{iVD1|jWE2}2X03~lYG
+                       A_pkt sent:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\80<h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+                   A_pkt received:   0   0   -47576 d{iVD1|jWE2}2X03~lYG
+B:   14388.0522,  Layer 4 to 5  Message = d{iVD1|jWE2}2X03~lYG
+                       B_ACK sent:  -1   0    -2727 ACK
+
+Printing the contents of the Simulation Event Q
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 14407.824 A: Timer    
+Event Time = 14724.474 A: LAYER 5  
+
+                   A_pkt received: 822083584   0   -47576 b{iVD
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+
+Printing the contents of the Simulation Event Q
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 14497.824 A: Timer    
+Event Time = 14724.474 A: LAYER 5  
+
+                   A_pkt received:   0   0   -47576 b{iVD1|jEW2}3X03~lYG
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+
+Printing the contents of the Simulation Event Q
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 14512.824 A: Timer    
+Event Time = 14724.474 A: LAYER 5  
+
+                   A_pkt received:   0   0   -47576 d{iVD1|jWE2}2X03~lYG
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+
+Printing the contents of the Simulation Event Q
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 14541.804 B: LAYER 3  Seq/Ack/Check = 51/0/-47576:  b{iVD1|jWE2}3X0\00~lYG
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^
+
+Printing the contents of the Simulation Event Q
+Event Time = 14542.824 A: Timer    
+Event Time = 14724.474 A: LAYER 5  
+
+                   A_pkt received:  51   0   -47576 b{iVD1|jWE2}3X0
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+
+Printing the contents of the Simulation Event Q
+Event Time = 14552.244 A: LAYER 3  Seq/Ack/Check = -1/5832704/-2816:  ACK\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^
+
+Printing the contents of the Simulation Event Q
+Event Time = 14557.824 A: Timer    
+Event Time = 14724.474 A: LAYER 5  
+
+                   B_pkt received:  -1 5832704    -2816 ACK
+               Corruption in B_pkt.
+
+Printing the contents of the Simulation Event Q
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 14602.824 A: Timer    
+Event Time = 14724.474 A: LAYER 5  
+
+                   A_pkt received:   0   0   -47576 b{iVD1|jWE2}3X03Yl~G
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+
+Printing the contents of the Simulation Event Q
+Event Time = 14622.843 A: LAYER 3  Seq/Ack/Check = -46081/0/-2727:  AC\FF\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^
+
+Printing the contents of the Simulation Event Q
+Event Time = 14622.843 A: LAYER 3  Seq/Ack/Check = -46081/0/-2727:  AC\FF\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^
+
+Printing the contents of the Simulation Event Q
+Event Time = 14622.843 A: LAYER 3  Seq/Ack/Check = -46081/0/-2727:  AC\FF\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00
+Event Time = 14632.824 A: Timer    
+Event Time = 14724.474 A: LAYER 5  
+
+                   A_pkt received:   0   0   -47576 d{iVD1|jWE2}2X03~lYG
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+
+Printing the contents of the Simulation Event Q
+Event Time = 14632.824 A: Timer    
+Event Time = 14724.474 A: LAYER 5  
+
+                   B_pkt received: -46081   0    -2727 AC\FF
+               Corruption in B_pkt.
+
+Printing the contents of the Simulation Event Q
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 14647.824 A: Timer    
+Event Time = 14724.474 A: LAYER 5  
+
+                   A_pkt received:   0   0   -47576 b{lVD1|jWE2}3X03~iYG
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+
+Printing the contents of the Simulation Event Q
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 14662.824 A: Timer    
+Event Time = 14724.474 A: LAYER 5  
+
+                   A_pkt received:   0   0   -47576 b{iVD1|jWE2X3}03~lYG
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+
+Printing the contents of the Simulation Event Q
+Event Time = 14677.123 A: LAYER 3  Seq/Ack/Check = -1/0/-2727:  ACK\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00
+Event Time = 14724.474 A: LAYER 5  
+
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47576 d{iVD1|jWE2}2X03~lYG\A0;h^
+
+Printing the contents of the Simulation Event Q
+Event Time = 14677.824 A: Timer    
+Event Time = 14686.707 B: LAYER 3  Seq/Ack/Check = 0/0/-47576:  d{iVD1|jWE2}2X03~lYG
+Event Time = 14724.474 A: LAYER 5  
+
+                   B_pkt received:  -1   0    -2727 ACK
+Confirmed proper ACK.
+-----
+
+Printing the contents of the Simulation Event Q
+Event Time = 14724.474 A: LAYER 5  
+
+                   A_pkt received:   0   0   -47576 d{iVD1|jWE2}2X03~lYG
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+
+Printing the contents of the Simulation Event Q
+
+A:   14724.4738,  Layer 5 to 4  Message = 10x.-,+*)('&%$#1~}|{
+                       A_pkt sent:   1   0   -39320 10x.-,+*)('&%$#1~}|{\80<h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 14754.474 A: Timer    
+Event Time = 15177.210 A: LAYER 5  
+
+                   A_pkt received:   1   0   -39320 10x.-,+*)('&%$#1~}|{
+B:   14751.9430,  Layer 4 to 5  Message = 10x.-,+*)('&%$#1~}|{
+                       B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -39320 10x.-,+*)('&%$#1~}|{\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -39320 10x.-,+*)('&%$#1~}|{\A0;h^\FE
+                   A_pkt received:   1   0   -56216 10x.-,+*)('&%f#1~}|{
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -39320 10x.-,+*)('&%$#1~}|{\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -39320 10x.-,+*)('&%$#1~}|{\A0;h^\FE
+                   A_pkt received:   1   0   -39320 10x.-,+*)('&%$#1~}|{
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -39320 10x.-,+*)('&%$#1~}|{\A0;h^\FE
+                   A_pkt received:   1   0   -39320 10x.-,+*)('&%$#1~}|{
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -39320 10x.-,+*)('&%$#1~}|{\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -39320 10x.-,+*)('&%$#1~}|{\A0;h^\FE
+                   A_pkt received:   1   0   -39320 10x.-,+|)('&%$#1~}*{
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -39320 10x.-,+*)('&%$#1~}|{\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -39320 10x.-,+*)('&%$#1~}|{\A0;h^\FE
+                   A_pkt received:   1   0   -39320 10x.-,+*)('&%$#1~}|{
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -39320 10x.-,+*)('&%$#1~}|{\A0;h^\FE
+                   A_pkt received:   1   0 -13932952 10x.-,\FF*)('&%$#1~}|{
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -39320 10x.-,+*)('&%$#1~}|{\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -39320 10x.-,+*)('&%$#1~}|{\A0;h^\FE
+                   A_pkt received:   1   0   -39320 10x.-,+*)('&%$#1~}|{
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                   B_pkt received:  -1   1    -2804 
+               Corruption in B_pkt.
+                   B_pkt received:  -1   0    -2804 ACK
+               Corruption in B_pkt.
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -39320 10x.-,+*)('&%$#1~}|{\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -39320 10x.-,+*)('&%$#1~}|{\A0;h^\FE
+                   A_pkt received: 9473   0   -39320 10x.-,+*)('&
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -39320 10x.-,+*)('&%$#1~}|{\A0;h^\FE
+                   A_pkt received:   1   0   -39320 10x.-,+*)('&%|#1~}${
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -39320 10x.-,+*)('&%$#1~}|{\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -39320 10x.-,+*)('&%$#1~}|{\A0;h^\FE
+                   A_pkt received:   1 11008   -39320 10x.-,
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                   B_pkt received:  -1   1    -2804 ACK
+Confirmed proper ACK.
+-----
+A:   15177.2098,  Layer 5 to 4  Message = 2CSdt'7HXiy,<M^n21BR
+                       A_pkt sent:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\80<h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\A0;h^\FE
+                   A_pkt received:   0   0   -43151 2CSdt'7HXiy,<M^n21BR
+B:   15224.5835,  Layer 4 to 5  Message = 2CSdt'7HXiy,<M^n21BR
+                       B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\A0;h^\FE
+                   A_pkt received:   0   0   -43151 2CSdt'7HXiy,<M^n21BR
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\A0;h^\FE
+                   A_pkt received:   0   0   -43151 2CSdt'7HXiy,<M^n21BR
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\A0;h^\FE
+                   A_pkt received:   0   0   -43151 2CSdt'7HXiy,<M^n21BR
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\A0;h^\FE
+                   A_pkt received:   0   0   -43151 2C1dt'7HXiy,<M^n2SBR
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\A0;h^\FE
+                   A_pkt received:   0   0   -43151 2CSdt'7HXiy,<M^n21BR
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\A0;h^\FE
+                   A_pkt received: 9984   0   -43151 2CSdt
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\A0;h^\FE
+                   A_pkt received:   0   0   -43151 2CSdt'7HXiy,<M^n21BR
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -43151 2CSdt'7HXiy,<M^n21BR\A0;h^\FE
+                   A_pkt received:   0   0 1476394865 2CSdt'7HXiy,<M^n21BR
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                   A_pkt received:   0   0   -43151 2CSdt'7HXiy,<M^n21BR
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                   B_pkt received:  -1   0    -2727 ACK
+Confirmed proper ACK.
+-----
+A:   15905.5104,  Layer 5 to 4  Message = 3Uw;^!Df*Ln2Tv:]~3e)
+                       A_pkt sent:   1   0   -44801 3Uw;^!Df*Ln2Tv:]~3e)\80<h^\FE
+                   A_pkt received:   1   0   -44801 3Uw;^!Df*Ln2Tv:]~3e)
+B:   15908.0876,  Layer 4 to 5  Message = 3Uw;^!Df*Ln2Tv:]~3e)
+                       B_ACK sent:  -1   1    -2804 ACK
+                   B_pkt received: 16777215   1    -2804 ACK
+               Corruption in B_pkt.
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -44801 3Uw;^!Df*Ln2Tv:]~3e)\A0;h^\FE
+                   A_pkt received:   1 3801088   -44801 3Uw;^!Df*Ln2Tv
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -44801 3Uw;^!Df*Ln2Tv:]~3e)\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -44801 3Uw;^!Df*Ln2Tv:]~3e)\A0;h^\FE
+                   A_pkt received:   1   0   -44801 3Uw;^!D)*Ln2Tv:]~3ef
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -44801 3Uw;^!Df*Ln2Tv:]~3e)\A0;h^\FE
+                   B_pkt received:  -1   1    -2804 ACK
+Confirmed proper ACK.
+-----
+A:   16781.7929,  Layer 5 to 4  Message = 4f=qGzP&Yxc8lB3K~T4^
+                       A_pkt sent:   0   0   -46980 4f=qGzP&Yxc8lB3K~T4^\80<h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46980 4f=qGzP&Yxc8lB3K~T4^\A0;h^\FE
+                   A_pkt received:   0   0   -46980 4f=qGzP&Yxc8lB3~KT4^
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                   B_pkt received:  -1   1    -2816 ACK
+               Corruption in B_pkt.
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46980 4f=qGzP&Yxc8lB3K~T4^\A0;h^\FE
+                   A_pkt received:   0  61   -46980 4f
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46980 4f=qGzP&Yxc8lB3K~T4^\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46980 4f=qGzP&Yxc8lB3K~T4^\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46980 4f=qGzP&Yxc8lB3K~T4^\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46980 4f=qGzP&Yxc8lB3K~T4^\A0;h^\FE
+                   A_pkt received:   0   0   -46980 4f=qGzP&Yxc8lB3K~T4^
+B:   16900.6825,  Layer 4 to 5  Message = 4f=qGzP&Yxc8lB3K~T4^
+                       B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46980 4f=qGzP&Yxc8lB3K~T4^\A0;h^\FE
+                   A_pkt received:   0   0   -46980 4f=qGzP&Yxc8lB3K~T4^
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -46980 4f=qGzP&Yxc8lB3K~T4^\A0;h^\FE
+                   B_pkt received:  -1   0    -2727 ACK
+Confirmed proper ACK.
+-----
+                   A_pkt received:   0   0   -46980 4f=qGzP&Yxc8lB3K~T4^
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                   B_pkt received:  -1   0    -2727 A
+               Corruption in B_pkt.
+A:   17276.9847,  Layer 5 to 4  Message = 5zbI0u]D+pW>&kR9~fM5
+                       A_pkt sent:   1   0   -45680 5zbI0u]D+pW>&kR9~fM5\80<h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45680 5zbI0u]D+pW>&kR9~fM5\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45680 5zbI0u]D+pW>&kR9~fM5\A0;h^\FE
+                   A_pkt received:   1   0   -45680 5zbI0u]D+pW>&kR9~fM5
+B:   17327.7854,  Layer 4 to 5  Message = 5zbI0u]D+pW>&kR9~fM5
+                       B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45680 5zbI0u]D+pW>&kR9~fM5\A0;h^\FE
+                   A_pkt received:   1   0   -45680 5zbI0u]D+pW>&kR9~fM5
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45680 5zbI0u]D+pW>&kR9~fM5\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45680 5zbI0u]D+pW>&kR9~fM5\A0;h^\FE
+                   A_pkt received:   1   0 -10662512 5zbI0u\FFD+pW>&kR9~fM5
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45680 5zbI0u]D+pW>&kR9~fM5\A0;h^\FE
+                   A_pkt received:   1   0   -45680 59bI0u]D+pW>&kRz~fM5
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                   A_pkt received:   1 29952   -45680 5zbI0
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                   B_pkt received:  -1   1 -16714484 ACK
+               Corruption in B_pkt.
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45680 5zbI0u]D+pW>&kR9~fM5\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45680 5zbI0u]D+pW>&kR9~fM5\A0;h^\FE
+                   A_pkt received:   1   0   -45680 pzbI0u]D+5W>&kR9~fM5
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45680 5zbI0u]D+pW>&kR9~fM5\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45680 5zbI0u]D+pW>&kR9~fM5\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45680 5zbI0u]D+pW>&kR9~fM5\A0;h^\FE
+                   A_pkt received:   1   0   -45680 5zbI0W]D+pu>&kR9~fM5
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45680 5zbI0u]D+pW>&kR9~fM5\A0;h^\FE
+                   A_pkt received:   1   0   -45680 5zbI0u]D+pW>&kR9~fM5
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -45680 5zbI0u]D+pW>&kR9~fM5\A0;h^\FE
+                   A_pkt received:   1   0   -45680 5zbI0u]D+pW>&kR9~fM5
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                   B_pkt received:  -1   1    -2804 ACK
+Confirmed proper ACK.
+-----
+                   A_pkt received: 1459617793   0   -45680 5zbI0u]D+p
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                   B_pkt received: -256   1    -2804 ACK
+               Corruption in B_pkt.
+A:   19106.4769,  Layer 5 to 4  Message = 6x(~wpibZSLE=6x(~wpi
+                       A_pkt sent:   0   0   -52350 6x(~wpibZSLE=6x(~wpi\80<h^\FE
+                   A_pkt received:   0   0   -52350 6x(~wpibZS(E=6xL~wpi
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -52350 6x(~wpibZSLE=6x(~wpi\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -52350 6x(~wpibZSLE=6x(~wpi\A0;h^\FE
+                   A_pkt received:   0   0   -55166 6x3~wpibZSLE=6x(~wpi
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -52350 6x(~wpibZSLE=6x(~wpi\A0;h^\FE
+A:   19180.2090,  Layer 5 to 4  Message = d7LVaku!,6AK2`jt~+5?
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -52350 6x(~wpibZSLE=6x(~wpi\A0;h^\FE
+                   A_pkt received:   0   0   -52350 6x(~wpibZSLE=6x(~wpi
+B:   19189.7292,  Layer 4 to 5  Message = 6x(~wpibZSLE=6x(~wpi
+                       B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -52350 6x(~wpibZSLE=6x(~wpi\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -52350 6x(~wpibZSLE=6x(~wpi\A0;h^\FE
+                   A_pkt received:   0   0   -52350 6x(~wpibZSLE=6x(~wpi
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -52350 6x(~wpibZSLE=6x(~wpi\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -52350 6x(~wpibZSLE=6x(~wpi\A0;h^\FE
+                   B_pkt received: -65281 16711680    -2727 ACK
+               Corruption in B_pkt.
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -52350 6x(~wpibZSLE=6x(~wpi\A0;h^\FE
+                   A_pkt received:   0   0   -52350 6x(~wpibZSLE=6x(~wpi
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -52350 6x(~wpibZSLE=6x(~wpi\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -52350 6x(~wpibZSLE=6x(~wpi\A0;h^\FE
+                   A_pkt received:   0   0   -52350 6x(~EpibZSLw=6x(~wpi
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -52350 6x(~wpibZSLE=6x(~wpi\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -52350 6x(~wpibZSLE=6x(~wpi\A0;h^\FE
+                   A_pkt received: 1996488704   0   -52350 6x(~
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -52350 6x(~wpibZSLE=6x(~wpi\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -52350 6x(~wpibZSLE=6x(~wpi\A0;h^\FE
+                   A_pkt received:   0   0   -52350 6x(~wpibZSLE=6x(~wpi
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                   A_pkt received:   0 2113929216   -52350 6x(
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                   B_pkt received: -256   0    -2727 ACK
+               Corruption in B_pkt.
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -52350 6x(~wpibZSLE=6x(~wpi\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -52350 6x(~wpibZSLE=6x(~wpi\A0;h^\FE
+                   B_pkt received:  -1   0    -2727 ACK
+Confirmed proper ACK.
+-----
+                   Buffer Message: 
+                       A_pkt sent:   1   0   -43894 d7LVaku!,6AK2`jt~+5?(
+                   A_pkt received:   0   0   -52350 6x(~wpibZSLE=6x(~wpi
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                   A_pkt received:   1   0   -43894 b7LVakt!,6AK3`ju~+5?
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43894 d7LVaku!,6AK2`jt~+5?\A0;h^\FE
+                   A_pkt received:   1   0   -43894 V7Lbaku!,6AK3`jt~+5?
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43894 d7LVaku!,6AK2`jt~+5?\A0;h^\FE
+                   B_pkt received: -16711681   0    -2727 ACK
+               Corruption in B_pkt.
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43894 d7LVaku!,6AK2`jt~+5?\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43894 d7LVaku!,6AK2`jt~+5?\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43894 d7LVaku!,6AK2`jt~+5?\A0;h^\FE
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43894 d7LVaku!,6AK2`jt~+5?\A0;h^\FE
+                   A_pkt received:   1   0   -43894 d7LVaku!,6AK2`jt~+5?
+B:   19490.4941,  Layer 4 to 5  Message = d7LVaku!,6AK2`jt~+5?
+                       B_ACK sent:  -1   1    -2804 ACK
+                            A TIMER 1
+                     Resent A_pkt:   1   0   -43894 d7LVaku!,6AK2`jt~+5?\A0;h^\FE
+                   A_pkt received:   1   0   -43894 d7LVaku!,6AK2`jt~+5?
+                   Improper Seqnum.
+              Previous B_ACK sent:  -1   1    -2804 ACK
+                   B_pkt received:  -1   1    -2804 ACK
+Confirmed proper ACK.
+-----
+                   B_pkt received: -65281   1    -2804 ACK
+               Corruption in B_pkt.
+A:   19721.0474,  Layer 5 to 4  Message = 8T8.Jf$?[w5Qm+Gc~<Xt
+                       A_pkt sent:   0   0   -47060 8T8.Jf$?[w5Qm+Gc~<Xt\80<h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47060 8T8.Jf$?[w5Qm+Gc~<Xt\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47060 8T8.Jf$?[w5Qm+Gc~<Xt\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47060 8T8.Jf$?[w5Qm+Gc~<Xt\A0;h^\FE
+                            A TIMER 0
+                     Resent A_pkt:   0   0   -47060 8T8.Jf$?[w5Qm+Gc~<Xt\A0;h^\FE
+                   A_pkt received:   0   0   -47060 8T8.Jf$?[w5Qm+Gc~<Xt
+B:   19802.0078,  Layer 4 to 5  Message = 8T8.Jf$?[w5Qm+Gc~<Xt
+                       B_ACK sent:  -1   0    -2727 ACK
+
+Printing the contents of the Simulation Event Q
+Event Time = 19811.047 A: Timer    
+Event Time = 19827.598 B: LAYER 3  Seq/Ack/Check = 46/0/-47060:  8T8\00Jf$?[w5Qm+Gc~<Xt
+Event Time = 20330.341 A: LAYER 5  
+
+                   B_pkt received:  -1   0    -2727 ACK
+Confirmed proper ACK.
+-----
+
+Printing the contents of the Simulation Event Q
+Event Time = 20330.341 A: LAYER 5  
+
+                   A_pkt received:  46   0   -47060 8T8
+               Corruption in A_pkt.
+              Previous B_ACK sent:  -1   0    -2727 ACK
+
+Printing the contents of the Simulation Event Q
+
+A:   20330.3406,  Layer 5 to 4  Message = 9g693a0^-Z*W'T$Q~N{K
+                       A_pkt sent:   1   0   -43479 9g693a0^-Z*W'T$Q~N{K\80<h^\FE
+
+Printing the contents of the Simulation Event Q
+Event Time = 20360.341 A: Timer    
+Event Time = 20364.580 A: LAYER 5  
+
+                   A_pkt received:   1   0   -43479 9g693a0^-Z*W'T$Q~N{K
+B:   20332.0372,  Layer 4 to 5  Message = 9g693a0^-Z*W'T$Q~N{K
+                       B_ACK sent:  -1   1    -2804 ACK
+                   B_pkt received:  -1   1    -2804 ACK
+Confirmed proper ACK.
+-----
+A:   20364.5798,  Layer 5 to 4  Message = :yZ;:[<{]=|^>}_?~`A!
+                       A_pkt sent:   0   0   -47886 :yZ;:[<{]=|^>}_?~`A!\80<h^\FE
+                   A_pkt received:   0   0   -47886 :yZ;:[<{]=|^>}_?~`A!
+B:   20373.0852,  Layer 4 to 5  Message = :yZ;:[<{]=|^>}_?~`A!
+                       B_ACK sent:  -1   0    -2727 ACK
+
+
+Simulator terminated at time 20394.579839
+ after receiving 25 msgs at layer5
+Simulator Analysis:
+  Number of messages sent from 5 to 4: 25
+  Number of messages received at Layer 5, side A: 0
+  Number of messages received at Layer 5, side B: 25
+  Number of messages incorrectly received at layer 5: 0
+  Number of packets entering the network: 476
+  Average number of packets already in network:     0.095
+  Number of packets that the network lost: 258
+  Number of packets that the network corrupted: 106
+  Number of packets that the network put out of order: 108
